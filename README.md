@@ -61,7 +61,7 @@ and Save
 
 4) Drag and drop the Project to your remote Server.
 
-You should be able to hit your application by going to http://<PUBLIC_IP>:9080/HelloWorld
+You should be able to hit your application by going to `http://<PUBLIC_IP>:9080/HelloWorld`
 
 5) Start making more changes to index.html and watch your application update.
 
