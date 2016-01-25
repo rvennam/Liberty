@@ -1,8 +1,12 @@
 # Developing Liberty applications on IBM Containers
+
 This guide will help you 
+
 1) Run a Liberty container on Bluemix with remote administration enabled.
+
 2) Connect Eclipse to the Liberty container
-3) Start coding and watch your container instantly pick up changes.
+
+3) Start developing in Eclipse and watch your container instantly pick up changes.
 
 ### Run Liberty image on IBM Containers.
 ```sh
