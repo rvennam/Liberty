@@ -8,7 +8,7 @@ This guide will help you
 
 3) Start developing in Eclipse and watch your container instantly pick up changes.
 
-### Run Liberty image on IBM Containers.
+### Run Liberty image on IBM Containers
 ```sh
 git clone <THIS REPO URL>
 cd LibertyIBMContainers
@@ -49,3 +49,20 @@ Your Eclipse workspace should now be connected to your Liberty docker container 
 
 You're ready to start deploying applications to this Server. As you update your code, Eclipse will instantly push changes to your container.
 
+### Create a Hello World app
+
+1) In Eclipse File -> New -> Dynamic Web Project. Enter `HelloWorld` for the name and uncheck 'Add Project to an EAR' 
+
+2) Open the project and create a new file called 'index.html' under WebContent folder
+
+3) Add some html to this file
+```<html><h2>Hello World!</h2></html>```
+and Save
+
+4) Drag and drop the Project to your remote Server.
+
+You should be able to hit your application by going to http://<PUBLIC_IP>:9080/HelloWorld
+
+5) Start making more changes to index.html and watch your application update.
+
+Happy coding!
