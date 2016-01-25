@@ -35,6 +35,7 @@ cf ic ip bind <public_IP_address> rserver
 
 ### Create server definition in Eclipse WDT
 Confirm that you have a recent version of Eclipse with the WDT plugin.
+
 1) Set up a **local** Liberty server as outlined here: https://developer.ibm.com/wasdev/downloads/liberty-profile-using-eclipse/
 
 2) Now, we'll create a **remote** Liberty server.
