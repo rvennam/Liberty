@@ -45,6 +45,8 @@ Fill in the credentials. The default User is adminUser, Password is adminPasswor
 
 3) Click Verify and Finish!
 
+![alt tag](https://raw.githubusercontent.com/rvennam/LibertyIBMContainers/master/screenshots/ServerDefinitions.png)
+
 Your Eclipse workspace should now be connected to your Liberty docker container on Bluemix.
 
 You're ready to start deploying applications to this Server. As you update your code, Eclipse will instantly push changes to your container.
@@ -60,7 +62,7 @@ You're ready to start deploying applications to this Server. As you update your 
 and Save
 
 4) Drag and drop the Project to your remote Server.
-
+![alt tag](https://raw.githubusercontent.com/rvennam/LibertyIBMContainers/master/screenshots/HelloWorld.png)
 You should be able to hit your application by going to `http://<PUBLIC_IP>:9080/HelloWorld`
 
 5) Start making more changes to index.html and watch your application update.
