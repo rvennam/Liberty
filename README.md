@@ -2,7 +2,7 @@
 
 This guide will help you:
 
-1) Run a Liberty container on Bluemix with remote administration enabled.
+1) Run a WebSphere Liberty Docker container on Bluemix with remote administration enabled.
 
 2) Connect Eclipse to the Liberty container
 
