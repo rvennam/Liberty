@@ -65,9 +65,11 @@ You're ready to start deploying applications to this Server. As you update your 
 ```<html><h2>Hello World!</h2></html>```
 and Save
 
-4) Drag and drop the Project to your remote Server.
 ![alt tag](https://raw.githubusercontent.com/rvennam/LibertyIBMContainers/master/screenshots/HelloWorld.png)
-You should be able to hit your application by going to `http://<PUBLIC_IP>:9080/HelloWorld`
+
+4) Right click on your remote server -> Add and Remote, and deploy the HelloWorld project.
+
+You should be able to access your application by going to `http://<PUBLIC_IP>:9080/HelloWorld`
 
 5) Start making more changes to index.html and watch your application update.
 
