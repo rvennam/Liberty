@@ -44,6 +44,7 @@ Confirm that you have a recent version of Eclipse with the WDT plugin.
 In the Servers view of Eclipse, right-click to create a new Liberty server. Select Liberty and fill the hostname with the Public IP of your Bluemix Container that you noted above.
 
 ![alt tag](https://raw.githubusercontent.com/rvennam/LibertyIBMContainers/master/screenshots/NewServerCredentials.png)
+
 Fill in the credentials. The default User is adminUser, Password is adminPassword and the Port 9443. These were defined in the server.xml in the previous section.
 
 3) Click Verify and Finish!
