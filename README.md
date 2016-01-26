@@ -1,6 +1,6 @@
 # Developing Liberty applications on IBM Containers
 
-This guide will help you 
+This guide will help you:
 
 1) Run a Liberty container on Bluemix with remote administration enabled.
 
@@ -39,8 +39,11 @@ Confirm that you have a recent version of Eclipse with the WDT plugin.
 1) Set up a **local** Liberty server as outlined here: https://developer.ibm.com/wasdev/downloads/liberty-profile-using-eclipse/
 
 2) Now, we'll create a **remote** Liberty server.
+![alt tag](https://raw.githubusercontent.com/rvennam/LibertyIBMContainers/master/screenshots/NewServer.png)
 
 In the Servers view of Eclipse, right-click to create a new Liberty server. Select Liberty and fill the hostname with the Public IP of your Bluemix Container that you noted above.
+
+![alt tag](https://raw.githubusercontent.com/rvennam/LibertyIBMContainers/master/screenshots/NewServerCredentials.png)
 Fill in the credentials. The default User is adminUser, Password is adminPassword and the Port 9443. These were defined in the server.xml in the previous section.
 
 3) Click Verify and Finish!
