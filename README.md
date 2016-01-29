@@ -13,7 +13,7 @@ This guide will help you:
 git clone <THIS REPO URL>
 cd LibertyIBMContainers
 
-# If you want to change the username and password for remote admin (recommended), you can edit the server.xml
+# If you want to change the username and password for remote admin (recommended), you can edit remote.xml
 
 # Prereq: Install cf, cf ic extension and log in to cf.
 # Build docker image on IBM Containers using the Dockerfile in this folder.
@@ -45,7 +45,7 @@ In the Servers view of Eclipse, right-click to create a new Liberty server. Sele
 
 ![alt tag](https://raw.githubusercontent.com/rvennam/LibertyIBMContainers/master/screenshots/NewServerCredentials.png)
 
-Fill in the credentials. The default User is adminUser, Password is adminPassword and the Port 9443. These were defined in the server.xml in the previous section.
+Fill in the credentials. The default User is adminUser, Password is adminPassword and the Port 9443. These were defined in the server configuration in the previous section.
 
 3) Click Verify and Finish!
 
